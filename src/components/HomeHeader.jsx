@@ -1,4 +1,3 @@
-import Icon from "../assets/icon.svg"
 import Abstract from "../assets/abstract.svg"
 import Zapier from "../assets/zapier.svg"
 import Spotify from "../assets/spotify.svg"
@@ -14,7 +13,7 @@ const HomeHeader = () => {
     <header className="bg-whiting  ">
         <div className="flex justify-center  rounded-md items-center w-[630px] h-20 mx-[460px] bg-white mt-16">
         <img className="mt-[-100px] ml-[-50px]" src={Abstract} alt="" />
-            <img src={Icon} alt="" />
+            <img src="./assets/icon.svg" alt="" />
             <h2 className="text-4xl font-semibold px-4">  <span className="text-primary ">Unlock</span> Your Creative Potential</h2>
         </div>
         
