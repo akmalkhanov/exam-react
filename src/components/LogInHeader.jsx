@@ -54,7 +54,7 @@ return (
                         
                     </form>
 
-                    <button className="w-[380px] h-10  mt-4 rounded-md bg-primary border-2-primary text-white hover:border-amber-500 hover:text-primary transition-all duration-500 hover:bg-white border-x border-y" type="submit">Sign Up</button>
+                    <button className="w-[380px] h-10  mt-4 rounded-md bg-primary border-2-primary text-white hover:border-amber-500 hover:text-primary transition-all duration-500 hover:bg-white border-x border-y" type="submit"><a href="login">Sign Up</a></button>
                         <a className="ml-44 pt-4" href="/">OR</a>
                         <button className="w-[380px] h-10 flex justify-center space-x-3 items-center  mt-4 rounded-md bg-whiting border-gray  hover:border-amber-500 hover:text-primary transition-all duration-500 hover:bg-white border-x border-y" type="submit"> <span className=""><FcGoogle className="w-6 h-6" /></span> Sign Up with Google</button>
                         <p className="ml-24 mt-4">Already have an account? <span className=""><a className="underline cursor-pointer hover:text-primary transition-all duration-500" href="signup">Sign Up</a></span></p>
